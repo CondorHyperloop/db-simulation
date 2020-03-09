@@ -1,0 +1,49 @@
+{
+    "version": "string",
+    "time": "long",
+    "motor": {
+        "state": {
+            "type": ""
+        },
+        "temperature": "int",
+        "rpm": "int"
+    },
+    "batteries": {
+        "cells": "int",
+        "empty": "int",
+        "state": "int",
+        "voltage": "float",
+        "current": "float",
+        "temperature": "int"
+    },
+    "brakes": {
+        "state": "int",
+        "realState":"int",
+        "temperature": "int",
+        "pressure": "float"
+    },
+    "pod": {
+        "pressure": "float",
+        "speed": {
+            "lineal": "float",
+            "x": "float",
+            "y": "float",
+            "z": "float"
+        },
+        "acceleration": {
+            "lineal": "float",
+            "x": "float",
+            "y": "float",
+            "z": "float"
+        },
+        "state": "int",
+        "distance": "float"
+    },
+    "teensies": [
+        {
+            "state": "int",
+            "latency": "int",
+            "name": "string"
+        }
+    ]
+}
